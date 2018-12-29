@@ -1,14 +1,17 @@
 {
-  "name": "hello-typescript",
+  "name": "typescript-start",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Basic webpack && typescript configuration to begin a project",
+  "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "server": "webpack-dev-server --open",
+    "clean": "rm -rf ./node_modules"
   },
   "keywords": [],
-  "author": "",
+  "author": "Alex Kelley",
   "license": "ISC",
   "devDependencies": {
     "clean-webpack-plugin": "^1.0.0",
@@ -16,6 +19,7 @@
     "ts-loader": "^5.3.2",
     "typescript": "^3.2.2",
     "webpack": "^4.28.3",
-    "webpack-cli": "^3.1.2"
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.14"
   }
 }

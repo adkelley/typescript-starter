@@ -4,7 +4,7 @@ function component() {
     let element = document.createElement('div');
     element.innerHTML = 'Hello TypeScript';
 
-    logIt('Hello Typescript');
+    logIt('I love types');
 
     return element
 }
