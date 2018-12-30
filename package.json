@@ -1,7 +1,7 @@
 {
-  "name": "typescript-start",
+  "name": "typescript-starter",
   "version": "1.0.0",
-  "description": "Basic webpack && typescript configuration to begin a project",
+  "description": "Basic webpack && typescript configuration for beginining a project",
   "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
