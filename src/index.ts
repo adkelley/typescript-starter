@@ -1,12 +1,12 @@
-import logIt from './logit.ts';
+import logIt from "./logit.ts";
 
 function component() {
-    let element = document.createElement('div');
-    element.innerHTML = 'Hello TypeScript';
+    const element = document.createElement("div");
+    element.innerHTML = "Hello TypeScript";
 
-    logIt('I love types');
+    logIt("I love types");
 
-    return element
+    return element;
 }
 
 document.body.appendChild(component());
